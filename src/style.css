@@ -1,1 +1,24 @@
 /* styles go here */
+html {
+  margin: 0;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.fieldset {
+  margin-top: 20px;
+}
+
+.fieldset:first-of-type {
+  margin-top: 0;
+}
+
+.fieldset > .form-field:last-child {
+  margin-bottom: 0;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
